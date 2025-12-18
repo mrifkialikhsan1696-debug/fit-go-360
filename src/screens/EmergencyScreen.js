@@ -1,3 +1,6 @@
+<Text style={{ fontWeight: "900", color: "red" }}>
+  EMERGENCY PATCH v1 • {new Date().toISOString().slice(0,10)}
+</Text>
 import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Alert, TouchableOpacity } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
